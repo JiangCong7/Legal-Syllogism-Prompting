@@ -13,18 +13,21 @@ openaikey = [YOUR_KEY]
 Considering the large size of CAIL2018 dataset, we provide a random sampled test dataset of CAIL2018 in this repo. You can get the full dataset from CAIL2018(https://github.com/thunlp/CAIL).
 
 - baseline
+
 set full_prompt = baseline in cail_test.py
 ```
 python cail_test.py 
 ...
 ```
 - cot
+
 set full_prompt = cot in cail_test.py
 ```
 python cail_test.py
 ...
 ```
 -  legal syllogism
+
 set full_prompt = syllogism in cail_test.py
 ```
 python cail_test.py
