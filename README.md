@@ -5,12 +5,12 @@ We propose legal syllogism prompting (LoT), a simple prompting method to teach l
 
 ## Running the code
 
-First you need to specify your OPENAI key in cail_test.py
+Use your OPENAI key in cail_test.py
 ```
 openaikey = [YOUR_KEY]
 ```
 
-Considering the large size of CAIL2018 dataset. We provide a random sampled test dataset of CAIL2018 in this repo. You can get the full dataset from CAIL2018(https://github.com/thunlp/CAIL).
+Considering the large size of CAIL2018 dataset, we provide a random sampled test dataset of CAIL2018 in this repo. You can get the full dataset from CAIL2018(https://github.com/thunlp/CAIL).
 
 - baseline
 ```
